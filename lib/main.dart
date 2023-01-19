@@ -7,6 +7,7 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    super({const MyApp()})
     return MaterialApp(
       title: 'Fleet Management',
       theme: ThemeData(
